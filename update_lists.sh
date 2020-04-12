@@ -22,7 +22,7 @@ mds_to_json(){
 	done
 	echo ']}' >>$2
 	if [ ! -f "$1/README.md" ]; then
-    	echo "<h2>$1</h2>" > "$1/README.md"
+    	echo "# $1" > "$1/README.md"
 		echo "<ul>{% for item in site.data.$1.docs %}" >> "$1/README.md"
       	echo "<li><a href='{{ item.url }}'>{{ item.title }}</a></li>" >> "$1/README.md"
    		echo "{% endfor %}</ul>" >> "$1/README.md"
