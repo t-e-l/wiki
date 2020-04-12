@@ -16,8 +16,9 @@ mds_to_json(){
 	do
 		name=$(echo $md | cut -d "/" -f2)
 		if [ $name != "README.md" ] ;then
-			title=$(echo $name | cut -d "." -f1 | tr '[:upper:]' '[:lower:]')  
-			printf '{"title": "%s","url":"%s"},' $title "$title.html" >>$2
+			url=$(echo $name | cut -d "." -f1 )
+			title=$(echo $url | tr '[:upper:]' '[:lower:]')
+			printf '{"title": "%s","url":"%s"},' $title "$url.html" >>$2
 		fi
 	done
 	echo ']}' >>$2
