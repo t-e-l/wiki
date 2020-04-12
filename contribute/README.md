@@ -1,4 +1,4 @@
-<h2>addons</h2>
-<ul>{% for item in site.data.addons.docs %}
+<h2>contribute</h2>
+<ul>{% for item in site.data.contribute.docs %}
 <li><a href='{{ item.url }}'>{{ item.title }}</a></li>
 {% endfor %}</ul>
