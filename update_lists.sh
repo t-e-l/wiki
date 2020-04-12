@@ -12,17 +12,12 @@ dir_to_json(){
 
 mds_to_json(){
 	echo '{"docs": [' >$2
-	echo "***"
-	echo $1
 	for md in $1/*.md    
 	do
 		name=$(echo $md | cut -d "/" -f2)
 		if [ $name != "README.md" ] ;then
-			echo $md
-			echo "--"
-			echo $name
 			title=$(echo $name | cut -d "." -f1 | tr '[:upper:]' '[:lower:]')  
-			printf '{"title": "%s","url":"%s"},' $title $name >>$2
+			printf '{"title": "%s","url":"%s"},' $title "$title.html" >>$2
 		fi
 	done
 	echo ']}' >>$2
