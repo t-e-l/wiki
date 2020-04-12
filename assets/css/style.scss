@@ -3,42 +3,16 @@
 
 @import "{{ site.theme }}";
 
-
-.center {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-      }
       body{
         background: #1f1f1f;
         color: #c0b18b;
         font-family: Arial, Helvetica, sans-serif;
       }
       a{
-        font-size: 3vw;
-        letter-spacing: 5px;
         color: #c0b18b;
-        text-decoration: none;
       }
-      h3{
-        font-size: 5vw;
-      }
-      #sub{
-        font-size: 2em;
-        text-shadow: 1px 1px 0 #1f1f1f, 2px 2px 0 #679480, 3px 3px 0 #1f1f1f, 4px 4px 0 #679480;
-        letter-spacing: 5px;
-        color: #c0b18b;
-        text-decoration: none;
-        margin-bottom: 0px;
-      }
-      #head{
-        font-size: 120px;
-        text-shadow: 5px 5px 0 #1f1f1f, 10px 10px 0 #679480, 15px 15px 0 #1f1f1f, 20px 20px 0 #679480;
-        letter-spacing: 50px;
-        color: #c0b18b;
-        text-decoration: none;
-        margin-bottom: 0px;
+      h3, h2, h1, h4{
+        color: #679480;
       }
       a:link {
         color: #c0b18b;
@@ -52,18 +26,3 @@
       a:active {
         color: #c0b18b;
       }
-      #screenshot{
-        width: 50vh;
-
-      }
-      #tg{
-        width: 20vh;
-        margin: 2vh;
-      }
-      .row {
-  display: flex;
-}
-
-.column {
-  flex: 50%;
-}
