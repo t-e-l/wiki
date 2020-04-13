@@ -1,3 +1,9 @@
+ {% for js in site.data.scripts %}
+     <script type="text/javascript">
+     {% include {{ js }} %}
+     </script>
+ {% endfor %}
+
 _Run script(s) when your device boots._
 
 ## Usage
