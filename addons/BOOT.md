@@ -10,7 +10,6 @@ _Run script(s) when your device boots._
 
 Example: to start an sshd server and prevent the device from sleeping at boot, create the following file at ~/.termux/boot/start-sshd:
 
-`#!/data/data/com.termux/files/usr/bin/sh
+<pre><code>#!/data/data/com.termux/files/usr/bin/sh
 termux-wake-lock
-sshd`
-
+sshd</code></pre>
