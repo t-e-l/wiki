@@ -3,7 +3,7 @@ dir_to_json(){
 	for dir in $1    
 	do
 		dir=${dir%*/}  
-		if [ $dir != "assets" ] && [ $dir != "_data" ] && [ $dir != "node_modules" ];then
+		if [ $dir != "assets" ] && [ $dir != "_data" ] && [ $dir != "node_modules" ] && [ $category != "_layouts" ];then
 			printf '{"title": "%s","url":"%s"},' $dir $dir >>$2
 		fi
 	done
@@ -34,7 +34,7 @@ dir_to_json "*/" _data/categories.json
 for category in */
 do
 	category=${category%*/}
-	if [ $category != "assets" ] && [ $category != "_data" ] && [ $category != "node_modules" ];then
+	if [ $category != "assets" ] && [ $category != "_data" ] && [ $category != "node_modules" ] && [ $category != "_layouts" ];then
 		mds_to_json "$category" _data/$category.json
 	fi  
 	

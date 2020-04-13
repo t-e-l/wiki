@@ -22,6 +22,7 @@ jobs:
       run: |
         git config --local user.email "github@reckendrees.systems"
         git config --local user.name "v1nc"
+        git add .
         git commit -m "update json lists" -a
     - name: Push changes
       uses: ad-m/github-push-action@master
