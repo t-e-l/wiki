@@ -1,4 +1,4 @@
-# Contribution:
+# contribute
 
 _We need any help you can offer. Please read the whole wiki carefully!_
 
