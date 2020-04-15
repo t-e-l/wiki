@@ -1,9 +1,9 @@
 # TEL:API
 
-_This addon exposes device functionality as API to command line programs_
+_Use your device APIs in TEL_
 
-To use TEL:API you need to install the termux-api package.
+Most TEL features, like notifications, need to acces APIs of your device.
 
-<pre><code>pkg install termux-api</code></pre>
+It is recommended to install this addon!
 
 Take a look at [termux wiki entry](https://wiki.termux.com/wiki/Termux:API) for more information.
