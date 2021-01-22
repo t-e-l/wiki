@@ -32,6 +32,4 @@ NOTE:
 
 requires USE_WAL_COLS=true in ~/.tel/configs/userprefs.sh
 
-tel-theme may not provide good contrast results with all images, it is therefore left up to the user's own discretion
-
-Consider also customising various colors / transparencies etc in ~/.tel/configs
+tel-theme may not work well with all images, it is therefore left up to the user to decide what provides a good colorscheme
