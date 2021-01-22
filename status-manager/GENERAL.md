@@ -1,7 +1,7 @@
-# status manager
+# status-manager
 
 
-TEL currently runs an asynchronous python based script loader, to dynamically handle what are reffered to as _status modules_
+_TEL currently runs an asynchronous python based script loader, to dynamically handle what are reffered to as 'status modules'_
 
 The status manager resides at: `~/.tel/scripts/status_manager/status_manager.py`
 
