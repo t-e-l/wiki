@@ -1,6 +1,6 @@
 # TEL:API
 
-_TEL Edit_
+_share_
 
 DEFAULT ALIASES:
 tel-share
@@ -15,18 +15,9 @@ tel-share -l		= print stdin to stdout before sharing
 tel-share -h | --help 	= show help menu
 
 INFO:
-tel-search was created to accurately provide search results with no advertising or bias with a focus on TEL users privacy
-
-tel-search works by randomly selecting an instance of searx. 
-It confirms the selected instance is responding in a timely manner before submitting a search string, this means if you do not have an internet connection tel-search will continue to retry until you do.
-
-searx is a brilliant, privacy-respecting, metasearch engine and is highly configurable. [more info](https://en.wikipedia.org/wiki/Searx)
-
-Provided by TEL is a list (~/.tel/configs/search/trusted.txt) that contains the addresses of currently picked from. Here you can add or remove searx instance urls as you see fit.
-
-tel-search can also directly search inside the YouTube or NewPipe app with the '-yt' switch.
+tel-share uses the termux-api and am package to share files and text from TEL into other apps
 
 NOTE:
-when searching youtube e.g. 'tel-search -yt searchterm' 
-tel-search will prefer the NewPipe app over the official youtube app.
-However it is recommended to use the command 'y searchterm' for youtube/newpipe control. As 'y' command without args will simply launch the youtube/newpipe app which gives you less to remember.
+if you select 'always' whilst choosing which app to share with rather than 'just once' you can clear this preference by opening android settings -> apps -> find offending app -> app info -> Open by default -> clear defaults 
+
+looking to share files/text/urls into TEL? These actions are provided by scripts in ~/bin/
