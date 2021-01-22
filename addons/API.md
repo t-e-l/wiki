@@ -3,7 +3,7 @@
 _Use your device APIs in TEL_
 
 TEL leverages use of the termux api where possible. 
-It allows TEL to commumicate with inbuilt device functions etc that are otherwise inaccessible.
+It allows TEL to communicate with your devices hardware functions that are otherwise inaccessible inside of the TEL environemnt.
 
 It is required for several of TEL's inbuilt features such as:
 tel-dialer
