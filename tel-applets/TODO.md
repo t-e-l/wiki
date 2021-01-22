@@ -1,22 +1,33 @@
-# TEL:API
+# TEL:applets
 
-_TEL Todo_
+_todo_
 
 DEFAULT ALIASES:
+
 tel-todo
+
 todo
+
 td
 
 USAGE:
+
 tel-todo		= show my todo list
+
 tel-todo new task 	= add 'new task' to your todo list
+
 tel-todo -c | --clear	= wipe todo list 
+
 tel-todo -r | --remove	= remove latest entry
+
 tel-todo -r 2		= remove entry 2
+
 tel-todo -e 		= open todo list in editor
+
 tel-todo -h | --help 	= show help menu
 
 INFO:
+
 tel-todo is a KISS to-do list manager
 
 user data is stored as a text file at: ~/.tel/data/todo
