@@ -38,6 +38,8 @@ Provided by TEL is a list (~/.tel/configs/search/trusted.txt) that contains the 
 
 tel-search can also directly search inside the YouTube or NewPipe app with the '-yt' switch.
 
+can be launched with default key combo TEL + s 
+
 NOTE:
 
 when searching youtube e.g. 'tel-search -yt searchterm' tel-search will prefer the NewPipe app over the official youtube app.

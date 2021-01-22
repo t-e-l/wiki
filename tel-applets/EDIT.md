@@ -30,6 +30,8 @@ For example if you wish to edit a file in ~/.tel/configs/ tel-edit won't find th
 
 You can give a filename as args to tel-edit and it will open the file immediately if there are no similarly named matches, otherwise it will show you the file picker to confirm before editing. 
 
+Can be launched with key-combo TEL + e
+
 NOTE:
 
 tel-edit respects .gitignore files, therefore files listed inside of a directories .gitignore file will also not be availible to tel-edit
