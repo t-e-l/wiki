@@ -7,7 +7,7 @@ open
 o
 ```
 ## usage:
-
+```
 tel-open			= interactively choose a file to open in app
 
 tel-open filename		= start search with filename
@@ -17,7 +17,7 @@ tel-open -u 			= open interactive bookmarks file picker
 tel-open -u https://..com 	= open url in browser
 
 tel-open -h | --help 		= show help menu
-
+```
 ## info:
 
 tel-open is used to open files and links in external apps, eg opening a file for editing in an external editor app

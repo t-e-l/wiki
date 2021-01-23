@@ -7,7 +7,7 @@ edit
 e
 ```
 ## usage:
-
+```
 tel-edit		= interactively choose a file to edit
 
 tel-edit filename	= start search with filename
@@ -15,7 +15,7 @@ tel-edit filename	= start search with filename
 tel-edit -r | --root 	= interactively
 
 tel-edit -h | --help 	= show help menu
-
+```
 ## info:
 
 tel-edit was created to speed up the process of locating and opening a file for editing.

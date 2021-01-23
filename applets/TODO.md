@@ -7,7 +7,7 @@ todo
 td
 ```
 ## usage:
-
+```
 tel-todo		= show my todo list
 
 tel-todo new task 	= add 'new task' to your todo list
@@ -21,7 +21,7 @@ tel-todo -r 2		= remove entry 2
 tel-todo -e 		= open todo list in editor
 
 tel-todo -h | --help 	= show help menu
-
+```
 ## info:
 
 tel-todo is a KISS to-do list manager

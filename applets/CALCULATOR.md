@@ -8,11 +8,11 @@ calc
 c
 ```
 ## usage:
-
+```
 tel-calculator			= starts input prompt
 
 tel-calculator '4 * 20' 	= return output of '4 multiplied by 20'
-
+```
 ## info:
 
 tel-calculator is a simple interface wrapper around basic calculator free software package for linux (bc) 

@@ -8,7 +8,7 @@ notifs
 n
 ```
 ## usage:
-
+```
 tel-notifications				= show current notifications
 
 tel-notifications -r				= restart notification daemon
@@ -18,8 +18,7 @@ tel-notifications -c		 		= provide a full path to image
 tel-notifications -b com.annoying.example	= block a package from tel-notifications
 
 tel-notifications -h | --help 			= show help menu
-
-
+```
 ## info:
 
 tel-notifications uses the termux-api to format and filter android notifications and intergrate them into a status module.

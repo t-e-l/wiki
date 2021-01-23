@@ -7,8 +7,7 @@ restart
 r
 ```
 ## usage:
-
-tel-restart		= restart the TEL app
+`tel-restart		= restart the TEL app`
 
 ## info:
 

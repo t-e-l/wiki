@@ -7,7 +7,7 @@ search
 s
 ```
 ## usage:
-
+```
 tel-search			= interactively choose a engine to search
 
 tel-search searchterm		= start a search with searchterm
@@ -17,7 +17,7 @@ tel-edit -yt searchterm		= search in youtube/newpipe app for searchterm
 tel-search -t searchterm	= use terminal browser instead of external app
 
 tel-search -h | --help 		= show help menu
-
+```
 ## info:
 
 tel-search was created to quickly and accurately provide search results with no advertising and a focus on user privacy from within the TEL environment.

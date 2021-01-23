@@ -1,12 +1,10 @@
 # backup
 
 ## default aliases:
-```
-tel-backup
-```
-## usage:
+`tel-backup`
 
-tel-backup
+## usage:
+`tel-backup`
 
 ## info:
 

@@ -5,7 +5,7 @@
 tel-theme
 ```
 ## usage:
-
+```
 tel-theme			= interactively choose an image to theme from
 
 tel-theme filename		= start search with filename
@@ -13,7 +13,7 @@ tel-theme filename		= start search with filename
 tel-theme -f path/to/file 	= provide a full path to image
 
 tel-theme -h | --help 		= show help menu
-
+```
 
 ## info:
 
