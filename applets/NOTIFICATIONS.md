@@ -1,35 +1,47 @@
 # TEL:applets
 
-_theme_
+_notifications_
 
 DEFAULT ALIASES:
 
-tel-theme
+tel-notifications
+
+notifications
+
+notifs
+
+n
 
 USAGE:
 
-tel-theme			= interactively choose an image to theme from
+tel-notifications				= show current notifications
 
-tel-theme filename		= start search with filename
+tel-notifications -r				= restart notification daemon
 
-tel-theme -f path/to/file 	= provide a full path to image
+tel-notifications -c		 		= provide a full path to image
 
-tel-theme -h | --help 		= show help menu
+tel-notifications -b com.annoying.example	= block a package from tel-notifications
+
+tel-notifications -h | --help 			= show help menu
 
 
 INFO:
 
-tel-theme allows the user to select a file, from which to extract and set TEL's colorscheme
+tel-notifications uses the termux-api to format and filter android notifications and intergrate them into a status module.
 
-tel-theme displays contents of the ~/.wallpapers/ folder.
-it is recommended users currently copy in files they wish to theme from and set as their wallpaper.
+config files for tel-notifications can be found at `~/.tel/configs/notifications/` and `~/.tel/configs/notifications.sh` 
 
-example: `cp ~/storage/shared/Download/*.jpg ~/.wallpapers`
+tel-notifications displays contents of the `~/.tel/data/notifications` file
 
-tel-theme currently uses the termux-api which can be slow to set the system wallpaper, if this is an issue it's recommended to try cropping images to your phones screensize before running tel-theme on them.
+which is kept updated by the notification daemon found at `~/.tel/scripts/get_notifications.py`
+
+you can edit the blocked apps list at: `~/.tel/configs/notifications/ignored_pkgs`
+
+you can also block specific strings in the same way: `~/.tel/configs/notifications/ignored_strings`
+
+just add the string/package that tel-notifications should ignore onto a new line, making sure not to leave blank lines.
 
 NOTE:
 
-requires USE_WAL_COLS=true in ~/.tel/configs/userprefs.sh
+tel-notifications is disabled by default, to enable set NOTIFICATIONS_ENABLED=true in the config file, you may also wish to move the status module from ~/.tel/status/inactive to ~/.tel/status to see your notifications displayed in the status manager.
 
-tel-theme may not work well with all images, it is therefore left up to the user to decide what provides a good colorscheme
