@@ -30,7 +30,7 @@ tel-dialer can match contacts by name or numbers and can be used to start calls 
 
 It uses the termux-api to start calls which requires the permission for phone. 
 
-Can be launched with key-combo _TEL + p_.
+Can be launched with key-combo <cc>TEL + p</cc>.
 
 ## note:
 
