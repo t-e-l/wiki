@@ -1,12 +1,12 @@
 # todo
 
-_DEFAULT ALIASES:_
+## default aliases:
 ```
 tel-todo
 todo
 td
 ```
-USAGE:
+## usage:
 
 tel-todo		= show my todo list
 
@@ -22,7 +22,7 @@ tel-todo -e 		= open todo list in editor
 
 tel-todo -h | --help 	= show help menu
 
-INFO:
+## info:
 
 tel-todo is a KISS to-do list manager
 
@@ -32,7 +32,7 @@ tel-todo intergrates with the todo status module to display your latest todo lis
 
 if you would like to use tel-todo on another device (running bash) you can download tel-todo to a location in your $PATH, then sync the todo file using your preferred method to the same location on the other device.
 
-NOTE:
+## note:
 
 tel-todo uses the $EDITOR env variable to read your preferred editing program. If you wish to change your default editor, look inside of file `~/.tel/configs/userprefs.sh`
 

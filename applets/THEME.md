@@ -1,10 +1,10 @@
 # theme
 
-_DEFAULT ALIASES:_
+## default aliases:
 ```
 tel-theme
 ```
-USAGE:
+## usage:
 
 tel-theme			= interactively choose an image to theme from
 
@@ -15,7 +15,7 @@ tel-theme -f path/to/file 	= provide a full path to image
 tel-theme -h | --help 		= show help menu
 
 
-INFO:
+## info:
 
 tel-theme allows the user to select a file, from which to extract and set TEL's colorscheme
 
@@ -26,7 +26,7 @@ example: `cp ~/storage/shared/Download/*.jpg ~/.wallpapers`
 
 tel-theme currently uses the termux-api which can be slow to set the system wallpaper, if this is an issue it's recommended to try cropping images to your phones screensize before running tel-theme on them.
 
-NOTE:
+## note:
 
 requires `USE_WAL_COLS=true` in `~/.tel/configs/userprefs.sh`
 

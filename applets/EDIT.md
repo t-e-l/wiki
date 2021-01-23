@@ -1,12 +1,12 @@
 # edit
 
-_DEFAULT ALIASES:_
+## default aliases
 ```
 tel-edit
 edit
 e
 ```
-## USAGE:
+## usage:
 
 tel-edit		= interactively choose a file to edit
 
@@ -16,7 +16,7 @@ tel-edit -r | --root 	= interactively
 
 tel-edit -h | --help 	= show help menu
 
-INFO:
+## info:
 
 tel-edit was created to speed up the process of locating and opening a file for editing.
 
@@ -28,7 +28,7 @@ You can give a filename as args to tel-edit and it will open the file immediatel
 
 Can be launched with key-combo TEL + e
 
-NOTE:
+## note:
 
 tel-edit respects .gitignore files, therefore files listed inside of a directories .gitignore file will also not be availible to tel-edit
 

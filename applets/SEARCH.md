@@ -1,12 +1,12 @@
 # search
 
-_DEFAULT ALIASES:_
+## default aliases:
 ```
 tel-search
 search
 s
 ```
-USAGE:
+## usage:
 
 tel-search			= interactively choose a engine to search
 
@@ -18,7 +18,7 @@ tel-search -t searchterm	= use terminal browser instead of external app
 
 tel-search -h | --help 		= show help menu
 
-INFO:
+## info:
 
 tel-search was created to quickly and accurately provide search results with no advertising and a focus on user privacy from within the TEL environment.
 
@@ -36,7 +36,7 @@ tel-search can also directly search inside the YouTube or NewPipe app with the '
 
 can be launched with default key combo TEL + s 
 
-NOTE:
+## note:
 
 when searching youtube e.g. 'tel-search -yt searchterm' tel-search will prefer the NewPipe app over the official youtube app.
 

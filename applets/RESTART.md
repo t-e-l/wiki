@@ -1,21 +1,21 @@
 # restart
 
-_DEFAULT ALIASES:_
+## default aliases:
 ```
 tel-restart
 restart
 r
 ```
-USAGE:
+## usage:
 
 tel-restart		= restart the TEL app
 
-INFO:
+## info:
 
 tel-restart restarts the java + shell + tmux environments
 
 restarting will make sure TEL reloads any changed settings and may help if you experience bugs
 
-NOTE:
+## note:
 
 there is no prompt before restarting so make sure you save any open files!

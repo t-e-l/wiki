@@ -1,12 +1,12 @@
 # open
 
-_DEFAULT ALIASES:_
+## default aliases:
 ```
 tel-open
 open
 o
 ```
-USAGE:
+## usage:
 
 tel-open			= interactively choose a file to open in app
 
@@ -18,7 +18,7 @@ tel-open -u https://..com 	= open url in browser
 
 tel-open -h | --help 		= show help menu
 
-INFO:
+## info:
 
 tel-open is used to open files and links in external apps, eg opening a file for editing in an external editor app
 
@@ -35,7 +35,7 @@ Bookmarks are stored at: `~/.tel/data/bookmarks` and can be launched with defaul
 
 File opener can be launched with default key combo TEL + o
 
-NOTE:
+## note:
 
 tel-open respects `.gitignore `files, therefore files listed inside of a directories `.gitignore` file will also not be availible to tel-open
 

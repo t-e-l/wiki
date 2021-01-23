@@ -1,12 +1,12 @@
 # share
 
-_DEFAULT ALIASES:_
+## default aliases:
 ```
 tel-share
 share
 ```
 
-USAGE:
+## usage:
 
 tel-share		= interactively choose a file to share 
 
@@ -18,11 +18,11 @@ tel-share -l		= print stdin to stdout before sharing
 
 tel-share -h | --help 	= show help menu
 
-INFO:
+## info:
 
 tel-share uses the termux-api and am package to share files and text from TEL into other apps
 
-NOTE:
+## note:
 
 if you select 'always' whilst choosing which app to share with rather than 'just once' you can clear this preference by opening android settings -> apps -> find offending app -> app info -> Open by default -> clear defaults 
 

@@ -1,13 +1,13 @@
 # notifications
 
-_DEFAULT ALIASES:_
+## default aliases:
 ```
 tel-notifications
 notifications
 notifs
 n
 ```
-USAGE:
+## usage:
 
 tel-notifications				= show current notifications
 
@@ -20,7 +20,7 @@ tel-notifications -b com.annoying.example	= block a package from tel-notificatio
 tel-notifications -h | --help 			= show help menu
 
 
-INFO:
+## info:
 
 tel-notifications uses the termux-api to format and filter android notifications and intergrate them into a status module.
 
@@ -36,7 +36,7 @@ you can also block specific strings in the same way: `~/.tel/configs/notificatio
 
 just add the string/package that tel-notifications should ignore onto a new line, making sure not to leave blank lines.
 
-NOTE:
+## note:
 
 tel-notifications is disabled by default, to enable set `NOTIFICATIONS_ENABLED=true` in the config file, you may also wish to move the status module from `~/.tel/status/inactive` to `~/.tel/status` to see your notifications displayed in the status manager.
 
