@@ -31,9 +31,9 @@ You can give a filename as args to tel-open and it will open the file immediatel
 
 tel-open can also open urls in your devices browser, example: `tel-open -u https://t-e-l.github.io/wiki`.
 
-Bookmarks are stored at: `~/.tel/data/bookmarks` and can be launched with default key combo _TEL + b_.
+Bookmarks are stored at: `~/.tel/data/bookmarks` and can be launched with default key combo <kc>TEL + b</kc>.
 
-File opener can be launched with default key combo _TEL + o_.
+File opener can be launched with default key combo <kc>TEL + o</kc>.
 
 ## note:
 

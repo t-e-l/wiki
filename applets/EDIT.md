@@ -26,7 +26,7 @@ For example if you wish to edit a file in `~/.tel/configs/` tel-edit won't find 
 
 You can give a filename as args to tel-edit and it will open the file immediately if there are no similarly named matches, otherwise it will show you the file picker to confirm before editing. 
 
-Can be launched with key-combo _TEL + e_.
+Can be launched with key-combo <kc>TEL + e</kc>.
 
 ## note:
 

@@ -30,7 +30,7 @@ user data is stored as a text file at: `~/.tel/data/todo`.
 
 tel-todo intergrates with the todo status module to display your latest todo list entry.
 
-if you would like to use tel-todo on another device (running bash) you can download tel-todo to a location in your $PATH, then sync the todo file using your preferred method to the same location on the other device.
+if you would like to use tel-todo on another device (running bash) you can download tel-todo to a location in your `$PATH`, then sync the todo file using your preferred method to the same location on the other device.
 
 ## note:
 

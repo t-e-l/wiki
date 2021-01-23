@@ -34,7 +34,7 @@ Provided by TEL is a list (`~/.tel/configs/search/trusted.txt`) that contains th
 
 tel-search can also directly search inside the YouTube or NewPipe app with the `-yt` switch.
 
-can be launched with default key combo _TEL + s_ 
+can be launched with default key combo <kc>TEL + s</kc> 
 
 ## note:
 
