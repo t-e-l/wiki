@@ -32,13 +32,13 @@ tel-search confirms the selected instance is responding in a timely manner befor
 
 Provided by TEL is a list (`~/.tel/configs/search/trusted.txt`) that contains the addresses of currently picked from. Here you can add or remove searx instance urls as you see fit.
 
-tel-search can also directly search inside the YouTube or NewPipe app with the '-yt' switch.
+tel-search can also directly search inside the YouTube or NewPipe app with the `-yt` switch.
 
-can be launched with default key combo TEL + s 
+can be launched with default key combo _TEL + s_ 
 
 ## note:
 
-when searching youtube e.g. 'tel-search -yt searchterm' tel-search will prefer the NewPipe app over the official youtube app.
+when searching youtube e.g. `tel-search -yt searchterm` tel-search will prefer the NewPipe app over the official youtube app.
 
-It is recommended to use the command 'y searchterm' for youtube/newpipe control. As 'y' command without args will simply launch the youtube/newpipe app which gives you less to remember.
+It is recommended to use the command `y searchterm` for youtube/newpipe control. As `y` command without args will simply launch the youtube/newpipe app which gives you less to remember.
 

@@ -11,9 +11,9 @@ r
 
 ## info:
 
-tel-restart restarts the java + shell + tmux environments
+tel-restart restarts the java + shell + tmux environments.
 
-restarting will make sure TEL reloads any changed settings and may help if you experience bugs
+restarting will make sure TEL reloads any changed settings and may help if you experience bugs.
 
 ## note:
 

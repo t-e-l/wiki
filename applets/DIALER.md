@@ -30,8 +30,8 @@ tel-dialer can match contacts by name or numbers and can be used to start calls 
 
 It uses the termux-api to start calls which requires the permission for phone. 
 
-Can be launched with key-combo TEL + p
+Can be launched with key-combo _TEL + p_.
 
 ## note:
 
-If calling tel-dialer without args results in error with no output then you likely need to update your contacts file with `tel-dialer -u`
+If calling `tel-dialer` without args results in error with no output then you likely need to update your contacts file with `tel-dialer -u`.
