@@ -1,14 +1,14 @@
 # backup
 
-### default aliases:
+## default aliases:
 ```
 tel-backup
 ```
-### usage:
+## usage:
 
 tel-backup
 
-### info:
+## info:
 
 tel-backup archives select TEL and user folders, it also provides users with a method to choose which archives to restore.
 
@@ -16,7 +16,7 @@ backups are made to `~/storage/shared/tel/backup/` and users are prompted to pro
 
 because backups are made externally to the TEL app filesystem they can be restored after removing or reinstalling the TEL apk
 
-### note:
+## note:
 
 tel-backup requires termux-api and access to `~/storage/shared/tel/backup`
 
