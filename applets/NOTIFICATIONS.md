@@ -1,17 +1,12 @@
-# TEL:applets
+# notifications
 
-_notifications_
-
-DEFAULT ALIASES:
-
+_DEFAULT ALIASES:_
+```
 tel-notifications
-
 notifications
-
 notifs
-
 n
-
+```
 USAGE:
 
 tel-notifications				= show current notifications
@@ -43,5 +38,5 @@ just add the string/package that tel-notifications should ignore onto a new line
 
 NOTE:
 
-tel-notifications is disabled by default, to enable set NOTIFICATIONS_ENABLED=true in the config file, you may also wish to move the status module from ~/.tel/status/inactive to ~/.tel/status to see your notifications displayed in the status manager.
+tel-notifications is disabled by default, to enable set `NOTIFICATIONS_ENABLED=true` in the config file, you may also wish to move the status module from `~/.tel/status/inactive` to `~/.tel/status` to see your notifications displayed in the status manager.
 

@@ -1,11 +1,9 @@
-# TEL:applets
+# backup
 
-_backup_
-
-DEFAULT ALIASES:
-
+_DEFAULT ALIASES:_
+```
 tel-backup
-
+```
 USAGE:
 
 tel-backup
@@ -20,6 +18,6 @@ because backups are made externally to the TEL app filesystem they can be restor
 
 NOTE:
 
-tel-backup requires termux-api and access to ~/storage/shared/tel/backup
+tel-backup requires termux-api and access to `~/storage/shared/tel/backup`
 
 Be careful! tel-backup has potential to overwrite existing data loss if you are careless!

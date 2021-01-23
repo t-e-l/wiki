@@ -1,13 +1,10 @@
-# TEL:applets
+# share
 
-_share_
-
-DEFAULT ALIASES:
-
+_DEFAULT ALIASES:_
+```
 tel-share
-
 share
-
+```
 
 USAGE:
 
@@ -29,4 +26,4 @@ NOTE:
 
 if you select 'always' whilst choosing which app to share with rather than 'just once' you can clear this preference by opening android settings -> apps -> find offending app -> app info -> Open by default -> clear defaults 
 
-looking to share files/text/urls into TEL? These actions are provided by scripts in ~/bin/
+looking to share files/text/urls into TEL? These actions are provided by scripts in `~/bin/`

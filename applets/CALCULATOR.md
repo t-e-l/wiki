@@ -1,17 +1,12 @@
-# TEL:applets
+# calculator
 
-_calculator_
-
-DEFAULT ALIASES:
-
+_DEFAULT ALIASES:_
+```
 tel-calculator
-
 calculator
-
 calc
-
 c
-
+```
 USAGE:
 
 tel-calculator			= starts input prompt

@@ -1,15 +1,11 @@
-# TEL:applets
+# restart
 
-_restart_
-
-DEFAULT ALIASES:
-
+_DEFAULT ALIASES:_
+```
 tel-restart
-
 restart
-
 r
-
+```
 USAGE:
 
 tel-restart		= restart the TEL app

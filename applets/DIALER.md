@@ -1,19 +1,13 @@
-# TEL:applets
+# dialer
 
-_dialer_
-
-DEFAULT ALIASES:
-
+_DEFAULT ALIASES:_
+```
 tel-dialer
-
 dial
-
 call
-
 phone
-
 p
-
+```
 USAGE:
 
 tel-dialer			= interactively choose a contact to call

@@ -1,11 +1,9 @@
-# TEL:applets
+# theme
 
-_theme_
-
-DEFAULT ALIASES:
-
+_DEFAULT ALIASES:_
+```
 tel-theme
-
+```
 USAGE:
 
 tel-theme			= interactively choose an image to theme from
@@ -21,7 +19,7 @@ INFO:
 
 tel-theme allows the user to select a file, from which to extract and set TEL's colorscheme
 
-tel-theme displays contents of the ~/.wallpapers/ folder.
+tel-theme displays contents of the `~/.wallpapers/` folder.
 it is recommended users currently copy in files they wish to theme from and set as their wallpaper.
 
 example: `cp ~/storage/shared/Download/*.jpg ~/.wallpapers`
@@ -30,8 +28,8 @@ tel-theme currently uses the termux-api which can be slow to set the system wall
 
 NOTE:
 
-requires USE_WAL_COLS=true in ~/.tel/configs/userprefs.sh
+requires `USE_WAL_COLS=true` in `~/.tel/configs/userprefs.sh`
 
 tel-theme may not provide good contrast results with all images, it is therefore left up to the user's own discretion
 
-Consider also customising various colors / transparencies etc in ~/.tel/configs
+Consider also customising various colors / transparencies etc in `~/.tel/configs`

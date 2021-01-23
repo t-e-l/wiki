@@ -1,15 +1,11 @@
-# TEL:applets
+# search
 
-_search_
-
-DEFAULT ALIASES:
-
+_DEFAULT ALIASES:_
+```
 tel-search
-
 search
-
 s
-
+```
 USAGE:
 
 tel-search			= interactively choose a engine to search
@@ -34,7 +30,7 @@ tel-search further improves privacy by selecting a random instance of searx from
 
 tel-search confirms the selected instance is responding in a timely manner before submitting a search query, this means if you do not have an internet connection tel-search will continue to retry until you do.
 
-Provided by TEL is a list (~/.tel/configs/search/trusted.txt) that contains the addresses of currently picked from. Here you can add or remove searx instance urls as you see fit.
+Provided by TEL is a list (`~/.tel/configs/search/trusted.txt`) that contains the addresses of currently picked from. Here you can add or remove searx instance urls as you see fit.
 
 tel-search can also directly search inside the YouTube or NewPipe app with the '-yt' switch.
 

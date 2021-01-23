@@ -1,15 +1,11 @@
-# TEL:applets
+# todo
 
-_todo_
-
-DEFAULT ALIASES:
-
+_DEFAULT ALIASES:_
+```
 tel-todo
-
 todo
-
 td
-
+```
 USAGE:
 
 tel-todo		= show my todo list
@@ -30,7 +26,7 @@ INFO:
 
 tel-todo is a KISS to-do list manager
 
-user data is stored as a text file at: ~/.tel/data/todo
+user data is stored as a text file at: `~/.tel/data/todo`
 
 tel-todo intergrates with the todo status module to display your latest todo list entry
 
@@ -38,5 +34,5 @@ if you would like to use tel-todo on another device (running bash) you can downl
 
 NOTE:
 
-tel-todo uses the $EDITOR env variable to read your preferred editing program. If you wish to change your default editor, look inside of file ~/.tel/configs/userprefs.sh
+tel-todo uses the $EDITOR env variable to read your preferred editing program. If you wish to change your default editor, look inside of file `~/.tel/configs/userprefs.sh`
 
