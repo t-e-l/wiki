@@ -1,35 +1,23 @@
-# edit
+# update
 
 ## default aliases
 ```
-tel-edit
-edit
-e
+tel-update
 ```
 ## usage:
 ```
-tel-edit		= interactively choose a file to edit
+tel-update		= default update method
 
-tel-edit filename	= start search with filename
+tel-update --extras 	= run extras installer
 
-tel-edit -r | --root 	= interactively
-
-tel-edit -h | --help 	= show help menu
+tel-update -h | --help 	= show help menu
 ```
 ## info:
 
-tel-edit was created to speed up the process of locating and opening a file for editing.
+tel-update downloads and installs the latest shell environment files for TEL.
 
-tel-edit works by searching from your current working directory downwards.
-
-For example if you wish to edit a file in `~/.tel/configs/` tel-edit won't find this file if you're current working directory is `~/.termux`, because it will only search inside of `.termux` directory.
-
-You can give a filename as args to tel-edit and it will open the file immediately if there are no similarly named matches, otherwise it will show you the file picker to confirm before editing. 
-
-Can be launched with key-combo <kc>TEL + e</kc>.
+When ran without arguments: 'tel-update' it will only download and install the latest TEL applets/executables and update non-user related files.
 
 ## note:
 
-tel-edit respects `.gitignore` files, therefore files listed inside of a directories `.gitignore` file will also not be availible to tel-edit.
-
-tel-edit uses the `$EDITOR` env variable to read your preferred editing program. If you wish to change your default editor, look inside of file `~/.tel/configs/userprefs.sh`.
+tel-update can be destructive, it's recommended to backup important files before running
