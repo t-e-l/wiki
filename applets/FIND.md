@@ -21,7 +21,7 @@ hitting Enter will insert that file path into your current cursor position.
 
 tel-find searches for files and directories above your home (in TEL this is normally `/data/data/com.termux/files/`)
 
-Can be launched with keybind <kc>TEL + f</kc>.
+can be launched with default key combo <kc>TEL + s</kc> 
 
 ## note:
 

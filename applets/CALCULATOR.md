@@ -19,4 +19,5 @@ tel-calculator is a simple interface wrapper around basic calculator free softwa
 
 It is intended to be called without args if the user wishes to perform multiple calculations, or with a single query as its only arg.
 
+Can be launched with default key combo <kc>TEL + c</kc> 
 
