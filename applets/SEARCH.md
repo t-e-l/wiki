@@ -22,15 +22,7 @@ tel-search -h | --help 		= show help menu
 
 tel-search was created to quickly and accurately provide search results with no advertising and a focus on user privacy from within the TEL environment.
 
-tel-search uses searx metasearch engine and offers various ways to directly search other websites using bangs and an interactive prompt.
-
-searx is a brilliant, privacy-respecting, metasearch engine and is highly configurable. [more info](https://en.wikipedia.org/wiki/Searx)
-
-tel-search further improves privacy by selecting a random instance of searx from trusted.txt each time it is ran.
-
-tel-search confirms the selected instance is responding in a timely manner before submitting a search query, this means if you do not have an internet connection tel-search will continue to retry until you do.
-
-Provided by TEL is a list (`~/.tel/configs/search/trusted.txt`) that contains the addresses of currently picked from. Here you can add or remove searx instance urls as you see fit.
+tel-search uses duckduckgo as a default search provider, but is configurable with searx metasearch engine and offers various ways to directly search other websites using bangs and an interactive prompt.
 
 tel-search can also directly search inside the YouTube or NewPipe app with the `-yt` switch.
 
