@@ -27,8 +27,3 @@ Following settings are supported:
 
 `sb-text-size`: text size of the sb if icons are disabled
 
-`keyboard-color`
-
-`keyboard-text-color`
-
-`keyboard-selected-color`
