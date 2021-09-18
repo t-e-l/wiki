@@ -1,6 +1,5 @@
 # Termux Expert Launcher - Wiki page
 ![TEL-Logo](https://raw.githubusercontent.com/SealedJoy/images/main/logo-big.png)
-<a href="https://wiki.termux.com/wiki/Main_Page">Termux Wiki</a>
 Find help docs and info on the TEL app
 
 Feel free to contribute
@@ -14,3 +13,5 @@ choose a category:
       <li><a href="{{ item.url }}">{{ item.title }}</a></li>
    {% endfor %}
 </ul>
+
+for further info check out the: <a href="https://wiki.termux.com/wiki/Main_Page">Termux Wiki</a>
