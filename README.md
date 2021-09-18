@@ -1,6 +1,6 @@
 # Termux Expert Launcher - Wiki page
-![TEL-Logo](https://raw.githubusercontent.com/SealedJoy/images/main/logo-big.png)
-
+![TEL-Logo]()
+<img src="https://raw.githubusercontent.com/SealedJoy/images/main/logo-big.png" width=50% height=50%>
 For help docs and info on the TEL app
 
 Feel free to contribute the site is _still under development_
