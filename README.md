@@ -1,9 +1,9 @@
 # Termux Expert Launcher - Wiki page
-<img src="https://raw.githubusercontent.com/SealedJoy/images/main/logo-big.png" width=30% height=30%>
+![image](https://github.com/t-e-l/wiki/blob/4747f590e40ef6870d03622e2cbfb1616b7717fa/assets/imgs/wiki.png)
 
 For help docs and info on the TEL app
 
-Feel free to contribute the site is _still under development_
+We welcome contribution - the site is _still under development_
 
 choose a category:
 
