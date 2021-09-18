@@ -1,10 +1,9 @@
 # Termux Expert Launcher - Wiki page
 ![TEL-Logo](https://raw.githubusercontent.com/SealedJoy/images/main/logo-big.png)
-Find help docs and info on the TEL app
 
-Feel free to contribute
+For help docs and info on the TEL app
 
-_still under development_
+Feel free to contribute the site is _still under development_
 
 choose a category:
 
