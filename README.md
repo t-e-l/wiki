@@ -1,5 +1,6 @@
 # Termux Expert Launcher - Wiki page
 <img src="https://github.com/t-e-l/wiki/blob/147a2bdd3d5932be3f4f99b79ae2dc7303008bf0/assets/imgs/wiki.png" width=50% height=50%>
+![image](https://github.com/t-e-l/wiki/blob/147a2bdd3d5932be3f4f99b79ae2dc7303008bf0/assets/imgs/wiki.png)
 
 For help docs and info on the TEL app
 
