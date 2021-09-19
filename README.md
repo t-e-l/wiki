@@ -1,4 +1,4 @@
-# Termux Expert Launcher - Wiki page
+# Termux Expert Launcher 
 
 ![image](https://raw.githubusercontent.com/t-e-l/wiki/master/assets/imgs/wiki.png)
 
