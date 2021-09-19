@@ -1,4 +1,4 @@
-# Termux Expert Launcher 
+# Home
 
 ![image](https://raw.githubusercontent.com/t-e-l/wiki/master/assets/imgs/wiki.png)
 
