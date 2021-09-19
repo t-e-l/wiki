@@ -2,7 +2,7 @@
 
 _TEL related settings_
 
-The config file is located at `~/.tel/config/settings.conf`, you can find the default file [here](https://github.com/t-e-l/bootstrap-changes/blob/master/tel/.tel/configs/settings.conf).
+The config file is located at `~/.tel/configs/settings.conf`, you can find the default file [here](https://github.com/t-e-l/bootstrap-changes/blob/master/tel/.tel/configs/settings.conf).
 
 Following settings are supported:
 

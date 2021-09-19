@@ -2,7 +2,7 @@
 
 _TEL theme related config_
 
-The config file is located at `~/.tel/config/settings.conf`, you can find the default file [here](https://github.com/t-e-l/bootstrap-changes/blob/master/tel/.tel/configs/theme.conf).
+The config file is located at `~/.tel/configs/settings.conf`, you can find the default file [here](https://github.com/t-e-l/bootstrap-changes/blob/master/tel/.tel/configs/theme.conf).
 
 Following settings are supported:
 
@@ -27,8 +27,3 @@ Following settings are supported:
 
 `sb-text-size`: text size of the sb if icons are disabled
 
-`keyboard-color`
-
-`keyboard-text-color`
-
-`keyboard-selected-color`
