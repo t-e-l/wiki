@@ -4,7 +4,7 @@ _Do things even quickly!_
 
 the use of key combos requires `USE_TMUX=true` in `~/.tel/configs/userprefs.sh` 
 
-tel-applets in a new window split:
+Launch Applets:
 ```
 TEL + s		search
 TEL + p		dialer
