@@ -27,20 +27,20 @@ TEL + z 			toggle zoom current pane
 TEL + q 			quit current pane
 TEL + ALT + r 		rotate panes
 TEL + l			change pane layout
-TEL + |			split pane vertical
-TEL + -			split pane horizontal
-TEL + Return 		new pane
-TEL + n 			new pane
-TEL + CTRL + direction		resize pane
+TEL + |			new pane split vertical
+TEL + -			new pane split horizontal
+TEL + Return		new pane split horizontal
+TEL + n			new pane split horizontal
+TEL + CTRL + arrow_key	resize pane
 ```
 Window control:
 ```
 TEL + CTRL + n		new window
-TEL + CTRL + direction	change active window
+TEL + CTRL + arrow_key	change active window
 ```
 Extras:
 ```
-TEL + d		detatch from TEL tmux session
+TEL + d			detatch from TEL tmux session
 TEL + CTRL + ALT + r 	restart TEL
 ```
 
