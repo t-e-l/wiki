@@ -2,8 +2,6 @@
 
 _Please read the whole faq page carefully before asking questions! This allows the developers to focus on development rather than answering questions_
 
-#Problem:
-
 *Q: How do I hide/summon the status manager?*
 
 A: keycombo "[TEL] + [i]", or inside of the '~/.configs/status.sh' config file
@@ -33,5 +31,3 @@ A: Have you installed the TEL: API app? many functions currently require the API
 
 A: android requires location enabled to access network information, enable location and relevant permissions
 
-
-We currently communicate via telegram, please ask in the [support group](https://t.me/termux_expert_launcher) if you want to join.
