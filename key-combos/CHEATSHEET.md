@@ -4,9 +4,9 @@ _Do things even quickly!_
 
 the use of key combos requires `USE_TMUX=true` in `~/.tel/configs/userprefs.sh` 
 
+tel-applets in a new window split:
 ```
-These shortcuts will open and run tel-applets in a new window split:
-TEL + s 	search
+TEL + s		search
 TEL + p		dialer
 TEL + a		apps
 TEL + f		find (insert a path)
@@ -20,34 +20,28 @@ TEL + r		reload
 TEL + u		update
 TEL + c		calculator
 TEL + y		youtube
-Window Panes:
-TEL + z 		toggle zoom current pane
-TEL + q 		quit current pane
+```
+Split control:
+```
+TEL + z 			toggle zoom current pane
+TEL + q 			quit current pane
 TEL + ALT + r 		rotate panes
 TEL + l			change pane layout
 TEL + |			split pane vertical
 TEL + -			split pane horizontal
 TEL + Return 		new pane
-TEL + n 		new pane
-TEL + CTRL + direction	resize pane
-
-
+TEL + n 			new pane
+TEL + CTRL + direction		resize pane
+```
 Window control:
-TEL + CTRL + n
-TEL + CTRL + direction
-
+```
+TEL + CTRL + n		new window
+TEL + CTRL + direction	change active window
+```
 Extras:
+```
 TEL + d		detatch from TEL tmux session
-
-
-
-
-```
-
-```
-TEL + CTRL + ALT + r 		restart
-
-
+TEL + CTRL + ALT + r 	restart TEL
 ```
 
 see [termux wiki - keyboard](https://wiki.termux.com/wiki/Touch_Keyboard)
