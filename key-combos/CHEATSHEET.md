@@ -1,6 +1,6 @@
 # key-combos
 
-_Do things even quickly!_
+_Do things even more quickly!_
 
 the use of key combos requires `USE_TMUX=true` in `~/.tel/configs/userprefs.sh` 
 
@@ -31,7 +31,7 @@ TEL + ALT + r 		rotate panes
 TEL + l			change pane layout
 TEL + |			new pane split vertical
 TEL + -			new pane split horizontal
-TEL + Return		new pane split horizontal
+TEL + Return			new pane split horizontal
 TEL + n			new pane split horizontal
 TEL + CTRL + arrow_key	resize pane
 ```
