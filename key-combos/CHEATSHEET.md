@@ -4,6 +4,8 @@ _Do things even quickly!_
 
 the use of key combos requires `USE_TMUX=true` in `~/.tel/configs/userprefs.sh` 
 
+TEL here refers to the preconfigured [TEL] key button in the termux extra keys bar, this can also be activated with the keycombo [CTRL] + [t]
+
 Launch Applets:
 ```
 TEL + s		search
